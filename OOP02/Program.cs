@@ -60,11 +60,15 @@
                 }
 
             }
-
-
-
+            Console.WriteLine("Sorted Employees:");
+            foreach (var emp in EmpArr)
+            {
+                Console.WriteLine(emp);
+            }
+            Console.WriteLine($"Boxing Count: {boxing}, Unboxing Count: {unboxing}");
             #endregion
-
         }
+
     }
+    
 }
